@@ -1,0 +1,154 @@
+#header{
+	height: 55%;
+	width: 100%;
+	background:black ;
+
+}
+
+
+.home{
+
+		    
+        float: right;
+      
+}
+.row1{
+  float:left;
+    width:520px;
+    padding:10px;
+    
+    margin-left: 10px;
+}
+.row2{
+  float:left;
+    width:460px;
+    padding:10px;
+}
+.row3 {
+     float:right;
+    width:220px;
+    padding:10px;
+    margin-right: 10px;
+}
+.row4{
+	float:right;
+	width:1020px
+
+}
+.delete{
+	color: red;
+	text-decoration: inherit;
+}
+.create{
+	color: green;
+}
+a{
+	color: white;
+}
+
+h2{
+  	font: bold 34px "Century Schoolbook", Georgia, Times, serif;
+  	color: #333;
+	line-height: 90%;
+	margin: .2em 0 .4em 0;
+	letter-spacing: -2px;
+}
+input[type="password"], input[type="text"] {
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 39px;
+  margin: 31px 0 0 29px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 240px;
+}
+input[type="password"]:focus, input[type="text"]:focus {
+  box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+  outline: 0;
+}
+.about{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+img{
+	height:39px;
+	width: 32px; 
+}
+
+h3{
+	text-align: center;
+ 	color: black;
+ 	}
+
+
+
+ul, li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: inline;
+}
+
+fieldset {
+	padding: 10px;
+	margin-right: 70px;
+	border-width: 1px;  
+	border-radius: 13px;
+	height: 300px;
+	width: 400px;
+
+	
+}
+#post{
+	border-width: 1px;  
+	border-radius: 5px;
+	width: 50%;
+	height: 200px;
+	overflow-y: scroll;
+}
+table{
+	margin: 30px;
+	border-spacing: 0px;
+}
+
+
+	body {
+		width: 100%;
+		height: 100%;
+		font-family: "helvetica neue", helvetica, arial, sans-serif;
+		font-size: 13px;
+		background:url(images/bg.jpg); 
+		line-height: 1.6em; 	
+	}
+
+.button{
+   -webkit-border-radius: 6
+   ;
+  -moz-border-radius: 6;
+  border-radius: 13px;
+  font-family: Courier New;
+  color: #f7f7f7;
+  font-size: 11px;
+  background: #000000;
+  padding: 8px 11px 8px 11px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+  width: 40px;
+}
+
+.button:hover {
+  background: #919191;
+  text-decoration: none;
+}

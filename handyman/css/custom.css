@@ -1,0 +1,251 @@
+body{
+	padding-top: 51px;
+	width: 100%;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+
+   
+  }
+
+
+ul{
+	list-style: none;
+}
+option,a{
+	color: #333;
+}
+a:hover{
+	cursor: pointer;
+}
+
+.sidebar{
+    padding-top: 51px;
+    display: block;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, .05);
+}
+.body-title{
+	border: 1px solid #e3e3e3;
+	border-left: 5px solid #234383;
+	padding: 0 20px 20px;
+}
+.featured-box{
+	border: 1px solid #e3e3e3;
+	border-top: 5px solid #234383;
+	padding: 0 20px 20px;
+}
+.breadcrumbs {
+position: relative;
+border-bottom: 1px solid #E5E5E5;
+background-color: #F5F5F5;
+}
+.breadcrumb{
+	margin-bottom: 0;
+}
+.cart-btn{
+	border-radius:0;
+}
+.navbar {
+	border-radius: 0;
+	
+/*background: #438EB9;
+color: #fff;border: 0;*/
+
+}
+/* Removed width:auto from navbar-collapse classs; */
+
+.navbar .navbar-brand {
+/*color: #FFF;
+font-size: 24px;
+text-shadow: none;
+padding-bottom: 10px;*/
+}
+.form-group-addon{
+	padding-left: -20px;
+}
+.widget-left {
+    height: 80px;
+    padding-top: 15px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.widget-right {
+    text-align: left;
+    line-height: 1.6em;
+    margin: 0px;
+    padding: 20px;
+    height: 80px;
+    color: #999;
+    font-weight: 300;
+    background: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.panel-gray { background: gray; }
+@media (max-width: 768px) {
+    .widget-right {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    }
+}
+
+@media (max-width: 768px) {
+    .widget-left {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    }
+}
+
+.widget-right .text-muted {
+    color: #9fadbb;
+}
+.widget-right .large {
+    color: #5f6468;
+}
+section {
+    padding: 100px 0;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+.btn-block{
+	color: orange;
+}
+
+.service-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.service-box .service-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.1;
+    background: rgba(120,75,47,.5);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.service-box .service-box-caption .service-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.service-box .service-box-caption .service-box-caption-content .project-category,
+.service-box .service-box-caption .service-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.service-box .service-box-caption .service-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.service-box .service-box-caption .service-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.service-box:hover .service-box-caption {
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    .service-box .service-box-caption .service-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .service-box .service-box-caption .service-box-caption-content .project-name {
+        font-size: 22px;
+    }
+}
+
+
+table{
+    border-radius: 0px;
+}
+
+.mysTable .panel-body{
+    overflow-y: scroll;
+    height: 270px
+
+}
+.mylTables .panel-body{
+    overflow-y: scroll;
+    height: 310px
+}
+.comment .panel-body {
+    overflow-y: scroll;
+    height: 350px;
+}
+.comment-body small {
+    margin-left: 5px;
+}
+
+.comment ul li {
+    margin-bottom: 10px;
+    padding: 15px 5px;
+    border-bottom: 1px solid #eee;
+}
+/*rating stars css*/
+.rating {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+.rating-input {
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0 0 0 -16px;
+    opacity: 0;
+}
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+}
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -16px;
+}

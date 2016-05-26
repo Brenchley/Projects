@@ -1,0 +1,17 @@
+2016-01-24 7:34:36 - PHP Notice:  Undefined index: sort_order in /var/www/html/upload/admin/model/design/banner.php on line 37
+2016-02-01 12:52:16 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.currency.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-01 12:52:16 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.language.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-02 15:18:05 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.currency.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-02 15:18:05 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.language.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-02 15:18:13 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.currency.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-02 15:18:13 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.language.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-02 15:18:15 - PHP Notice:  Error: Could not load template /var/www/html/upload/catalog/view/theme/default/template/common/column_left.tpl! in /var/www/html/upload/system/engine/loader.php on line 86
+2016-02-02 15:18:23 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.currency.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-02 15:18:23 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.language.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-02 15:18:23 - PHP Notice:  Error: Could not load template /var/www/html/upload/catalog/view/theme/default/template/common/column_left.tpl! in /var/www/html/upload/system/engine/loader.php on line 86
+2016-02-02 15:18:41 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.currency.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-02 15:18:41 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.language.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-02 15:18:41 - PHP Notice:  Error: Could not load template /var/www/html/upload/catalog/view/theme/default/template/common/column_left.tpl! in /var/www/html/upload/system/engine/loader.php on line 86
+2016-02-09 15:38:01 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.currency.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-09 15:38:01 - PHP Warning:  unlink(/var/www/html/upload/system/storage/cache/cache.language.1453737665): Permission denied in /var/www/html/upload/system/library/cache/file.php on line 17
+2016-02-09 15:38:02 - PHP Notice:  Error: Could not load template /var/www/html/upload/catalog/view/theme/default/template/common/column_left.tpl! in /var/www/html/upload/system/engine/loader.php on line 86
